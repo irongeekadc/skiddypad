@@ -20,7 +20,12 @@ import re
 import sys
 import os.path
 import copy
-import os, socket, threading, time, logging, struct
+import os
+import socket
+import threading
+import time 
+import logging
+import struct
 from ipwhois import IPWhois
 from pprint import pprint
 from netaddr import IPNetwork, IPAddress
